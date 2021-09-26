@@ -9,6 +9,7 @@ import {faCircle} from '@fortawesome/free-regular-svg-icons';
 })
 export class IconComponent implements OnInit {
 
+  // Passing info (iconName) to parent app component
   @Input() iconName:string = '';
 
   faPen = faPen;
